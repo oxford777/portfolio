@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio de Frédérique Pujol, développeuse web front-end."
+    />
+    <title>Frederique PUJOL | Développeuse Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/main.js"></script>
+  </head>
+  <body>
+    <header class="header" id="top">
+      <a href="#accueil" class="brand" aria-label="Retour à l'accueil"
+        ><span>Frédérique PUJOL</span></a
+      >
+      <button
+        class="menu-toggle"
+        aria-expanded="false"
+        aria-controls="main-nav"
+      >
+        ☰
+      </button>
+      <nav id="main-nav" class="nav" aria-label="Navigation principale">
+        <a href="#accueil">Accueil</a><a href="#apropos">À propos</a
+        ><a href="#competences">Mes compétences</a
+        ><a href="#realisations">Mes réalisations</a
+        ><a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section id="accueil" class="hero">
+        <img src="assets/img/banniere.png" alt="Bannière du portfolio" />
+      </section>
+      <section id="apropos" class="about section-light">
+        <h2>À propos</h2>
+        <div class="about-text">
+          <p>
+            Passionnée par le développement web et les technologies numériques,
+            je conçois des interfaces modernes, performantes et accessibles,
+            avec une attention particulière portée à l’expérience utilisateur et
+            à la qualité du code. Rigoureuse, impliquée et orienté résultat, je
+            mets un point d’honneur à développer des projets fiables, responsive
+            et optimisés, en respectant les bonnes pratiques du développement
+            web.
+          </p>
+
+          <p>
+            Curieuse et constamment en veille sur les nouvelles technologies,
+            j’aime transformer des idées en solutions concrètes, claires et
+            efficaces. Maîtrisant les outils de developpement web, je suis
+            capable de créer des sites élégants, dynamiques et adaptés à tous
+            les supports. Chaque projet est pour moi l’occasion d’apporter une
+            réelle valeur ajoutée grâce à une approche méthodique, un sens du
+            détail affirmé et une forte capacité d’adaptation.
+          </p>
+
+          <p>
+            Sérieuse, autonome et à l’écoute, je privilégie une relation de
+            confiance dans chaque collaboration afin de garantir un travail
+            professionnel, durable et soigné. Mon objectif est de concevoir des
+            expériences web modernes qui allient esthétique, performance et
+            accessibilité, tout en répondant précisément aux besoins des
+            utilisateurs et des clients.
+          </p>
+        </div>
+      </section>
+      <section id="competences" class="skills section-dark">
+        <h2>Mes compétences</h2>
+
+        <div class="skills-grid">
+          <article class="skill">
+            <img src="assets/img/html5.svg" alt="Logo HTML" />
+            <strong>HTML</strong>
+            <span>Structure</span>
+          </article>
+
+          <article class="skill">
+            <img src="assets/img/css3.svg" alt="Logo CSS" />
+            <strong>CSS</strong>
+            <span>Design</span>
+          </article>
+
+          <article class="skill">
+            <img src="assets/img/javascript.svg" alt="Logo JavaScript" />
+            <strong>JS</strong>
+            <span>Interactions</span>
+          </article>
+
+          <article class="skill">
+            <img src="assets/img/react.svg" alt="Logo React" />
+            <strong>React</strong>
+            <span>Interface</span>
+          </article>
+
+          <article class="skill">
+            <img src="assets/img/nodejs.svg" alt="Logo Node JS" />
+            <strong>Node JS</strong>
+            <span>Back-end</span>
+          </article>
+
+          <article class="skill">
+            <img src="assets/img/mongodb.svg" alt="Logo MongoDB" />
+            <strong>MongoDB</strong>
+            <span>Base de données</span>
+          </article>
+
+          <article class="skill">
+            <img src="assets/img/github.svg" alt="Logo GitHub" />
+            <strong>GitHub</strong>
+            <span>Déploiement</span>
+          </article>
+
+          <article class="skill">
+            <img src="assets/img/seo.webp" alt="Logo SEO" />
+            <strong>SEO</strong>
+            <span>Optimisation</span>
+          </article>
+        </div>
+      </section>
+      <section id="realisations" class="projects section-light">
+        <h2>Mes réalisations</h2>
+        <div class="projects-grid">
+          <button class="project-card" data-project="0">
+            <img src="assets/img/booki.webp" alt="Aperçu projet Booki" /><span
+              >Booki</span
+            >
+          </button>
+          <button class="project-card" data-project="1">
+            <img
+              src="assets/img/sophie_BLUEL.webp"
+              alt="Aperçu projet Sophie Bluel"
+            /><span>Sophie Bluel</span>
+          </button>
+          <button class="project-card" data-project="2">
+            <img
+              src="assets/img/nina_carducci.webp"
+              alt="Aperçu projet Nina Carducci"
+            /><span>Nina Carducci</span>
+          </button>
+          <button class="project-card" data-project="3">
+            <img src="assets/img/Kaza.webp" alt="Aperçu projet Kasa" /><span
+              >Kasa</span
+            >
+          </button>
+          <button class="project-card" data-project="4">
+            <img
+              src="assets/img/mon_vieux_grimoire.webp"
+              alt="Aperçu projet Mon vieux grimoire"
+            /><span>Mon vieux grimoire</span>
+          </button>
+          <button class="project-card" data-project="5">
+            <img
+              src="assets/img/menu_maker.webp"
+              alt="Aperçu projet Menu Maker"
+            /><span>Menu Maker</span>
+          </button>
+        </div>
+        <a class="cv-btn" href="assets/cv/cv.pdf" target="_blank" rel="noopener"
+          >Voir mon CV</a
+        >
+      </section>
+    </main>
+    <footer id="contact" class="contact section-dark">
+      <h2>Contactez-moi</h2>
+
+      <form class="contact-form">
+        <input type="text" name="nom" placeholder="Votre nom" required />
+
+        <input type="email" name="email" placeholder="Votre e-mail" required />
+
+        <textarea
+          name="message"
+          placeholder="Votre message"
+          rows="6"
+          required
+        ></textarea>
+
+        <button type="submit">Envoyer</button>
+      </form>
+
+      <p>© 2026 - Frederique PUJOL</p>
+    </footer>
+
+    <dialog class="modal" id="project-modal">
+      <button class="modal-close" aria-label="Fermer">×</button>
+
+      <h3 class="modal-title"></h3>
+
+      <div class="modal-content">
+        <img class="modal-img" src="" alt="" />
+
+        <div class="modal-text">
+          <h4>Projet</h4>
+          <p class="modal-project"></p>
+
+          <h4>Description</h4>
+          <p class="modal-description"></p>
+
+          <h4>Compétences</h4>
+          <ul class="modal-skills"></ul>
+        </div>
+      </div>
+      <div class="modal-links">
+        <a class="modal-github" href="#" target="_blank">GitHub</a>
+        <a class="modal-site" href="#" target="_blank">Site</a>
+      </div>
+    </dialog>
+  </body>
+</html>
