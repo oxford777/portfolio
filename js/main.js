@@ -12,11 +12,11 @@ nav
 const projects = [
   {
     title: "Booki",
-    image: "assets/img/booki.webp",
+    image: "assets/img/booki-modal.webp",
     project:
       "Création de la page d’accueil responsive d’une agence de voyage à partir d’une maquette Figma.",
     description:
-      "Projet réalisé en HTML5 et CSS3 consistant à intégrer une interface web moderne et responsive en respectant une maquette fournie. Le site présente des hébergements et des activités touristiques avec une mise en page adaptée aux formats mobile, tablette et desktop.",
+      "Projet réalisé en HTML5 et CSS3 consistant à intégrer une interface web moderne et responsive en respectant une maquette fournie. \n\nLe site présente des hébergements et des activités touristiques avec une mise en page adaptée aux formats mobile, tablette et desktop.",
     skills: [
       "Intégration HTML sémantique",
       "Mise en page avec Flexbox",
@@ -32,11 +32,11 @@ const projects = [
   },
   {
     title: "Sophie Bluel",
-    image: "assets/img/sophie_BLUEL.webp",
+    image: "assets/img/sophie_BLUEL-modal.webp",
     project:
-      "Développement du portfolio de Sophie Bluel, architecte d’intérieur, à partir d’une maquette Figma et d’une API REST fournie. Le projet consistait à rendre le site interactif en JavaScript avec un système d’authentification administrateur, une galerie filtrable et une interface de gestion des projets via une modale.",
+      "Développement du portfolio de Sophie Bluel, architecte d’intérieur, à partir d’une maquette Figma et d’une API REST fournie. \n\nLe projet consistait à rendre le site interactif en JavaScript avec un système d’authentification administrateur, une galerie filtrable et une interface de gestion des projets via une modale.",
     description:
-      "Ce projet m’a permis de concevoir une interface web dynamique en JavaScript. J’ai mis en place la récupération des données depuis une API afin d’afficher automatiquement les projets dans la galerie. J’ai également développé un système de filtres par catégories, une connexion administrateur avec gestion du token utilisateur, ainsi qu’une modale permettant d’ajouter ou supprimer des projets sans rechargement de page. Le formulaire d’ajout comprend la validation des champs, la prévisualisation de l’image et l’envoi des données avec FormData. Ce projet m’a aussi amené à travailler l’organisation du code, la gestion des états de l’interface et la séparation entre logique JavaScript et mise en forme CSS.",
+      "Ce projet m’a permis de concevoir une interface web dynamique en JavaScript. J’ai mis en place la récupération des données depuis une API afin d’afficher automatiquement les projets dans la galerie. \n\nJ’ai également développé un système de filtres par catégories, une connexion administrateur avec gestion du token utilisateur, ainsi qu’une modale permettant d’ajouter ou supprimer des projets sans rechargement de page. \n\nLe formulaire d’ajout comprend la validation des champs, la prévisualisation de l’image et l’envoi des données avec FormData. \n\nCe projet m’a aussi amené à travailler l’organisation du code, la gestion des états de l’interface et la séparation entre logique JavaScript et mise en forme CSS.",
     skills: [
       "Développement d’une interface dynamique en JavaScript",
       "Manipulation du DOM et gestion des événements",
@@ -55,10 +55,10 @@ const projects = [
   },
   {
     title: "Nina Carducci",
-    image: "assets/img/nina_carducci.webp",
+    image: "assets/img/nina_carducci-modal.webp",
     project: "Nina Carducci – Optimisation d’un site de photographe",
     description:
-      "Audit et optimisation complète du site vitrine d’une photographe professionnelle afin d’améliorer les performances, le référencement naturel (SEO) et l’accessibilité. Le projet comprenait l’analyse Lighthouse, l’optimisation des images, l’ajout des données structurées Schema.org, l’amélioration de l’accessibilité avec Wave ainsi que le débogage de plusieurs fonctionnalités JavaScript de la galerie.",
+      "Audit et optimisation complète du site vitrine d’une photographe professionnelle afin d’améliorer les performances, le référencement naturel (SEO) et l’accessibilité. \n\nLe projet comprenait l’analyse Lighthouse, l’optimisation des images, l’ajout des données structurées Schema.org, l’amélioration de l’accessibilité avec Wave ainsi que le débogage de plusieurs fonctionnalités JavaScript de la galerie.",
     skills: [
       "SEO",
       "Lighthouse",
@@ -77,11 +77,11 @@ const projects = [
   },
   {
     title: "Kasa",
-    image: "assets/img/kaza.webp",
+    image: "assets/img/kasa-modal.webp",
     project:
-      "Kasa est une application web de location immobilière développée avec React. Le projet consiste à construire une interface moderne en composants réutilisables, avec une navigation fluide grâce à React Router.",
+      "Kasa est une application web de location immobilière développée avec React. \n\nLe projet consiste à construire une interface moderne en composants réutilisables, avec une navigation fluide grâce à React Router.",
     description:
-      "Développement d’une application de location immobilière en React avec React Router. Création d’une interface dynamique et responsive à partir de maquettes Figma, avec gestion de la navigation, des composants réutilisables et des données JSON. Implémentation de fonctionnalités interactives comme les collapses, le carrousel d’images et les pages d’erreur.",
+      "Développement d’une application de location immobilière en React avec React Router. \n\nCréation d’une interface dynamique et responsive à partir de maquettes Figma, avec gestion de la navigation, des composants réutilisables et des données JSON. \n\nImplémentation de fonctionnalités interactives comme les collapses, le carrousel d’images et les pages d’erreur.",
     skills: [
       "React",
       "React Router",
@@ -97,11 +97,11 @@ const projects = [
   },
   {
     title: "Mon vieux grimoire",
-    image: "assets/img/mon_vieux_grimoire.webp",
+    image: "assets/img/mon_vieux_grimoire-modal.webp",
     project:
-      "Développement du backend de l’application Mon Vieux Grimoire, une plateforme de notation de livres permettant aux utilisateurs de gérer leurs ouvrages, ajouter des notes et partager des couvertures. Le projet a été réalisé avec Node.js, Express, MongoDB, Multer et Sharp dans une architecture MVC sécurisée par authentification JWT.",
+      "Développement du backend de l’application Mon Vieux Grimoire, une plateforme de notation de livres permettant aux utilisateurs de gérer leurs ouvrages, ajouter des notes et partager des couvertures. \n\nLe projet a été réalisé avec Node.js, Express, MongoDB, Multer et Sharp dans une architecture MVC sécurisée par authentification JWT.",
     description:
-      "Projet full-stack orienté API réalisé avec Node.js, Express et MongoDB. L’objectif était de construire une API REST sécurisée avec authentification JWT et gestion des droits utilisateurs. Le backend gère les opérations CRUD complètes sur les livres, la notation des ouvrages, l’upload d’images avec Multer ainsi que leur optimisation avec Sharp. Les données sont stockées dans MongoDB et sécurisées grâce au hashage des mots de passe avec bcrypt.",
+      "Projet full-stack orienté API réalisé avec Node.js, Express et MongoDB. \n\nL’objectif était de construire une API REST sécurisée avec authentification JWT et gestion des droits utilisateurs. \n\nLe backend gère les opérations CRUD complètes sur les livres, la notation des ouvrages, l’upload d’images avec Multer ainsi que leur optimisation avec Sharp. \n\nLes données sont stockées dans MongoDB et sécurisées grâce au hashage des mots de passe avec bcrypt.",
     skills: [
       "Création d’une API REST avec Node.js et Express",
       "Mise en place d’une authentification sécurisée avec JWT",
@@ -118,15 +118,28 @@ const projects = [
       "Utilisation de variables d’environnement (.env)",
     ],
     github: "https://github.com/oxford777/Mon_vieux-grimoire",
-    site: "#",
+    site: "",
   },
   {
     title: "Menu Maker",
-    image: "assets/img/menu_maker.webp",
-    description: "#",
-    project: "#",
-    desc: "#",
-    skills: ["#"],
+    image: "assets/img/menu_maker-modal.webp",
+    project: "Menu Maker – Planification et gestion de projet web",
+    description:
+      "Projet consistant à préparer et organiser le développement d’une application web nommée “Menu Maker”. \n\nL’objectif était de planifier la création d’un site permettant aux restaurateurs de concevoir et diffuser leurs menus en ligne. \n\nLe travail portait sur l’analyse des besoins fonctionnels, la rédaction des spécifications techniques, la mise en place d’une veille technologique, ainsi que l’organisation du projet avec une méthode Agile et un tableau Kanban.",
+    skills: [
+      "Analyse des besoins fonctionnels d’un projet web",
+      "Rédaction de spécifications techniques",
+      "Découpage des fonctionnalités en tâches Kanban",
+      "Organisation d’un projet avec une méthode Agile",
+      "Utilisation d’un tableau Kanban avec Notion",
+      "Mise en place d’une veille technologique",
+      "Choix d’une architecture technique adaptée",
+      "Présentation d’une solution technique à un client",
+      "Identification des contraintes techniques et de sécurité",
+      "Planification des phases de développement",
+    ],
+    github: "#",
+    site: "",
   },
 ];
 const modal = document.querySelector("#project-modal");
@@ -145,6 +158,7 @@ document.querySelectorAll(".project-card").forEach((card) =>
 
     title.textContent = p.title;
     image.src = p.image;
+    image.hidden = false;
     image.alt = `Aperçu du projet ${p.title}`;
     projectText.textContent = p.project;
     description.textContent = p.description;
@@ -153,6 +167,11 @@ document.querySelectorAll(".project-card").forEach((card) =>
     githubLink.href = p.github;
     siteLink.href = p.site;
 
+    if (p.site) {
+      siteLink.style.display = "inline-block";
+    } else {
+      siteLink.style.display = "none";
+    }
     modal.showModal();
   }),
 );

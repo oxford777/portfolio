@@ -1,0 +1,260 @@
+@media (max-width: 1200px) and (min-width: 901px) {
+  .header {
+    padding: 0 6%;
+  }
+
+  .brand {
+    font-size: 1.5rem;
+  }
+
+  .nav {
+    gap: 20px;
+  }
+
+  .nav a {
+    font-size: 1rem;
+  }
+
+  .about h2,
+  .projects h2,
+  .skills h2,
+  .contact h2 {
+    font-size: 2.5rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .project-card img {
+    height: 320px;
+  }
+
+  .contact-card {
+    width: 320px;
+    padding: 25px 20px;
+  }
+
+  .contact-grid {
+    gap: 50px;
+  }
+
+  .contact-card h3 {
+    font-size: 1.5rem;
+  }
+
+  .contact-card p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav {
+    position: absolute;
+    top: var(--header-height);
+    right: 0;
+    left: 0;
+    background: var(--color-white);
+    display: none;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .nav.open {
+    display: flex;
+  }
+
+  .about-text {
+    font-size: 1.1rem;
+    text-align: justify;
+  }
+
+  .about h2,
+  .projects h2,
+  .skills h2,
+  .contact h2 {
+    font-size: 2rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .modal-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .modal-image {
+    order: 1;
+  }
+
+  .modal-text {
+    order: 2;
+    text-align: left;
+  }
+
+  .modal-text h4 {
+    text-align: center;
+  }
+
+  .modal-title {
+    font-size: 2rem;
+    padding-right: 70px;
+    white-space: nowrap;
+  }
+
+  .modal-close {
+    font-size: 2.5rem;
+    top: 20px;
+    right: 25px;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .contact-grid {
+    gap: 40px;
+  }
+
+  .contact-card {
+    width: 280px;
+    padding: 20px 15px;
+  }
+
+  .contact-card h3 {
+    font-size: 1.5rem;
+  }
+
+  .contact-card p {
+    font-size: 1rem;
+  }
+
+  .contact-card i {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding: 0 5%;
+  }
+
+  .brand {
+    font-size: 1.1rem;
+  }
+
+  .about {
+    padding: 60px 8%;
+  }
+
+  .about h2,
+  .projects h2,
+  .skills h2,
+  .contact h2 {
+    font-size: 1.8rem;
+  }
+
+  .about-text {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .modal-title {
+    font-size: 1.5rem;
+  }
+
+  .modal-close {
+    font-size: 2rem;
+  }
+
+  .modal-title {
+    white-space: normal;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .project-card img {
+    height: 170px;
+  }
+
+  .modal-content {
+    grid-template-columns: 1fr;
+  }
+
+  .modal-links {
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .modal-links a {
+    width: 80%;
+    max-width: 240px;
+    text-align: center;
+    padding: 8px 22px;
+    font-size: 0.95rem;
+    min-width: 140px;
+  }
+
+  .contact-grid {
+    gap: 25px;
+  }
+
+  .contact-card {
+    width: 240px;
+    padding: 18px 12px;
+  }
+
+  .contact-card p {
+    font-size: 0.95rem;
+  }
+
+  .contact-card i {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .about h2,
+  .projects h2,
+  .skills h2,
+  .contact h2 {
+    font-size: 1.5rem;
+  }
+
+  .modal {
+    width: 94%;
+  }
+
+  .modal-content {
+    padding: 0 16px;
+  }
+
+  .modal-img {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -15,7 +15,14 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
     <script defer src="js/main.js"></script>
   </head>
   <body>
@@ -39,7 +46,14 @@
     </header>
     <main>
       <section id="accueil" class="hero">
-        <img src="assets/img/banniere.png" alt="Bannière du portfolio" />
+        <img
+          src="assets/img/banniere.webp"
+          alt="Bannière du portfolio"
+          width="1774"
+          height="887"
+          decoding="async"
+          fetchpriority="high"
+        />
       </section>
       <section id="apropos" class="about section-light">
         <h2>À propos</h2>
@@ -130,74 +144,104 @@
       <section id="realisations" class="projects section-light">
         <h2>Mes réalisations</h2>
         <div class="projects-grid">
-          <button class="project-card" data-project="0">
-            <img src="assets/img/booki.webp" alt="Aperçu projet Booki" /><span
-              >Booki</span
-            >
-          </button>
-          <button class="project-card" data-project="1">
+          <button type="button" class="project-card" data-project="0">
             <img
-              src="assets/img/sophie_BLUEL.webp"
+              loading="lazy"
+              decoding="async"
+              src="assets/img/booki-card.webp"
+              alt="Aperçu projet Booki"
+              width="900"
+              height="775"
+            /><span>Booki</span>
+          </button>
+          <button type="button" class="project-card" data-project="1">
+            <img
+              loading="lazy"
+              decoding="async"
+              src="assets/img/sophie_BLUEL-card.webp"
               alt="Aperçu projet Sophie Bluel"
+              width="900"
+              height="1122"
             /><span>Sophie Bluel</span>
           </button>
-          <button class="project-card" data-project="2">
+          <button type="button" class="project-card" data-project="2">
             <img
-              src="assets/img/nina_carducci.webp"
+              loading="lazy"
+              decoding="async"
+              src="assets/img/nina_carducci-card.webp"
               alt="Aperçu projet Nina Carducci"
+              width="900"
+              height="930"
             /><span>Nina Carducci</span>
           </button>
-          <button class="project-card" data-project="3">
-            <img src="assets/img/Kaza.webp" alt="Aperçu projet Kasa" /><span
-              >Kasa</span
-            >
-          </button>
-          <button class="project-card" data-project="4">
+          <button type="button" class="project-card" data-project="3">
             <img
-              src="assets/img/mon_vieux_grimoire.webp"
+              loading="lazy"
+              decoding="async"
+              src="assets/img/kasa-card.webp"
+              alt="Aperçu projet Kasa"
+              width="900"
+              height="717"
+            /><span>Kasa</span>
+          </button>
+          <button type="button" class="project-card" data-project="4">
+            <img
+              loading="lazy"
+              decoding="async"
+              src="assets/img/mon_vieux_grimoire-card.webp"
               alt="Aperçu projet Mon vieux grimoire"
+              width="900"
+              height="787"
             /><span>Mon vieux grimoire</span>
           </button>
-          <button class="project-card" data-project="5">
+          <button type="button" class="project-card" data-project="5">
             <img
-              src="assets/img/menu_maker.webp"
+              loading="lazy"
+              decoding="async"
+              src="assets/img/menu_maker-card.webp"
               alt="Aperçu projet Menu Maker"
+              width="900"
+              height="898"
             /><span>Menu Maker</span>
           </button>
         </div>
-        <a class="cv-btn" href="assets/cv/cv.pdf" target="_blank" rel="noopener"
-          >Voir mon CV</a
-        >
       </section>
     </main>
     <footer id="contact" class="contact section-dark">
       <h2>Contactez-moi</h2>
+      <div class="contact-grid">
+        <a href="mailto:oxford.3p@email.com" class="contact-card">
+          <i class="fa-solid fa-envelope"></i>
+          <h3>E-MAIL</h3>
+          <p>Me contacter</p>
+        </a>
 
-      <form class="contact-form">
-        <input type="text" name="nom" placeholder="Votre nom" required />
-
-        <input type="email" name="email" placeholder="Votre e-mail" required />
-
-        <textarea
-          name="message"
-          placeholder="Votre message"
-          rows="6"
-          required
-        ></textarea>
-
-        <button type="submit">Envoyer</button>
-      </form>
-
-      <p>© 2026 - Frederique PUJOL</p>
+        <a
+          href="https://github.com/oxford777"
+          target="_blank"
+          class="contact-card"
+        >
+          <i class="fa-brands fa-github"></i>
+          <h3>GITHUB</h3>
+          <p>Voir mon profil GitHub</p>
+        </a>
+      </div>
+      <p>© 2026 Frédérique PUJOL — Tous droits réservés.</p>
     </footer>
 
     <dialog class="modal" id="project-modal">
-      <button class="modal-close" aria-label="Fermer">×</button>
-
-      <h3 class="modal-title"></h3>
-
+      <div class="modal-header">
+        <h3 class="modal-title"></h3>
+        <button class="modal-close" aria-label="Fermer">×</button>
+      </div>
       <div class="modal-content">
-        <img class="modal-img" src="" alt="" />
+        <img
+          class="modal-img"
+          src="assets/img/booki-modal.webp"
+          alt="Aperçu du projet"
+          width="1200"
+          height="2600"
+        />
 
         <div class="modal-text">
           <h4>Projet</h4>

@@ -1,0 +1,110 @@
+.modal::backdrop {
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.modal {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%);
+  width: 78%;
+  max-width: 1200px;
+  height: 88vh;
+  border: none;
+  border-radius: 20px;
+  padding: 0 35px 0;
+  overflow-y: auto;
+}
+
+.modal-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--color-white);
+  margin: 0 -35px 40px;
+  padding: 15px 80px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+.modal-title {
+  text-align: center;
+  font-size: 2.8rem;
+  margin: 0;
+}
+
+.modal-content {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  gap: 30px;
+  align-items: start;
+}
+
+.modal-img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  object-fit: cover;
+  box-shadow: var(--shadow-card);
+}
+
+.modal-text {
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.3;
+  padding-right: 40px;
+  text-align: justify;
+}
+
+.modal-text h4 {
+  font-size: 1.5rem;
+  margin: 0 0 15px;
+}
+
+.modal-skills {
+  padding-left: 25px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 25px;
+  right: 35px;
+  border: none;
+  background: none;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.modal-links {
+  position: sticky;
+  bottom: 0;
+  background: var(--color-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 24px 0;
+  margin: 40px -35px 0;
+  z-index: 20;
+  box-shadow: 0 -8px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 0 0 20px 20px;
+}
+
+.modal-links a {
+  border: 2px solid #222;
+  border-radius: 40px;
+  padding: 12px 55px;
+  text-decoration: none;
+  color: #222;
+  font-weight: 700;
+  font-size: 1.1rem;
+  transition: 0.3s ease;
+}
+
+.modal-project,
+.modal-description {
+  white-space: pre-line;
+}
+
+.modal-links a:hover {
+  background: #222;
+  color: white;
+}
