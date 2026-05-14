@@ -88,3 +88,35 @@ document
 modal.addEventListener("click", (e) => {
   if (e.target === modal) modal.close();
 });
+
+const form = document.querySelector(".contact-form");
+const formMessage = document.querySelector(".form-message");
+
+form.addEventListener("submit", async (e) => {
+  e.preventDefault();
+
+  const data = new FormData(form);
+
+  try {
+    const response = await fetch(form.action, {
+      method: form.method,
+      body: data,
+      headers: {
+        Accept: "application/json",
+      },
+    });
+
+    if (response.ok) {
+      formMessage.textContent = "Votre message a bien été envoyé.";
+      formMessage.classList.add("show");
+
+      form.reset();
+    } else {
+      formMessage.textContent = "Une erreur est survenue. Veuillez réessayer.";
+      formMessage.classList.add("show");
+    }
+  } catch (error) {
+    formMessage.textContent = "Impossible d’envoyer le message pour le moment.";
+    formMessage.classList.add("show");
+  }
+});

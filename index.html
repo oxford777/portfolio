@@ -44,6 +44,15 @@
         <a href="#competences">Mes compétences</a
         ><a href="#realisations">Mes réalisations</a
         ><a href="#contact">Contact</a>
+
+        <a
+          href="https://github.com/oxford777"
+          target="_blank"
+          aria-label="Voir mon profil GitHub"
+          class="nav-github"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
       </nav>
     </header>
     <main>
@@ -70,11 +79,12 @@
         <h2>À propos</h2>
         <div class="about-text">
           <p>
-            En tant que développeuse web, j’aime concevoir des sites modernes,
-            accessibles et agréables à utiliser. À travers ma formation et mes
-            projets, j’ai développé des compétences en HTML, CSS, JavaScript,
-            React et Node.js, avec une attention particulière portée au
-            responsive design, à la performance et à la qualité du code.
+            En tant que développeuse Front-End, j’aime concevoir des sites
+            modernes, accessibles et agréables à utiliser. À travers ma
+            formation et mes projets, j’ai développé des compétences en HTML,
+            CSS, JavaScript, React et Node.js, avec une attention particulière
+            portée au responsive design, à la performance et à la qualité du
+            code.
           </p>
 
           <p>
@@ -153,22 +163,43 @@
     <footer id="contact" class="contact section-dark">
       <h2>Contactez-moi</h2>
       <div class="contact-grid">
-        <a href="mailto:oxford.3p@email.com" class="contact-card">
-          <i class="fa-solid fa-envelope"></i>
-          <h3>E-MAIL</h3>
-          <p>Me contacter</p>
-        </a>
-
-        <a
-          href="https://github.com/oxford777"
-          target="_blank"
-          class="contact-card"
+        <form
+          class="contact-form"
+          action="https://formspree.io/f/mlgzyjqk"
+          method="POST"
         >
-          <i class="fa-brands fa-github"></i>
-          <h3>GITHUB</h3>
-          <p>Voir mon profil GitHub</p>
-        </a>
+          <label for="name" class="sr-only">Nom</label>
+          <input
+            type="text"
+            id="name"
+            name="nom"
+            placeholder="Votre nom"
+            required
+          />
+
+          <label for="email" class="sr-only">E-mail</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Votre e-mail"
+            required
+          />
+
+          <label for="message" class="sr-only">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Votre message"
+            rows="6"
+            required
+          ></textarea>
+
+          <button type="submit">Envoyer</button>
+          <p class="form-message" aria-live="polite"></p>
+        </form>
       </div>
+
       <p>© 2026 Frédérique PUJOL — Tous droits réservés.</p>
     </footer>
 
