@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Portfolio de Frédérique Pujol, développeuse web front-end."
+      content="Portfolio de Frédérique Pujol, développeuse web."
     />
     <title>Frederique PUJOL | Développeuse Web</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,7 +28,7 @@
   <body>
     <header class="header" id="top">
       <a href="#accueil" class="brand" aria-label="Retour à l'accueil"
-        ><span>Frédérique PUJOL</span></a
+        ><h1>Développement Web</h1></a
       >
       <button
         class="menu-toggle"
@@ -36,7 +36,7 @@
         aria-controls="main-nav"
         aria-label="Ouvrir le menu"
       >
-        <img src="assets/img/menu-burger.svg" alt="" aria-hidden="true" />
+        <img src="assets/icon/menu-burger.svg" alt="" aria-hidden="true" />
       </button>
       <nav id="main-nav" class="nav" aria-label="Navigation principale">
         <a href="#accueil">Accueil</a>
@@ -48,45 +48,47 @@
     </header>
     <main>
       <section id="accueil" class="hero">
-        <img
-          src="assets/img/banniere.webp"
-          alt="Bannière du portfolio"
-          width="1774"
-          height="887"
-          decoding="async"
-          fetchpriority="high"
-        />
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="assets/img/banniere-mobile.webp"
+            width="800"
+            height="1200"
+          />
+
+          <img
+            src="assets/img/banniere.webp"
+            alt="Bannière du portfolio"
+            width="1774"
+            height="977"
+            decoding="async"
+            fetchpriority="high"
+          />
+        </picture>
       </section>
       <section id="apropos" class="about section-light">
         <h2>À propos</h2>
         <div class="about-text">
           <p>
-            Passionnée par le développement web et les technologies numériques,
-            je conçois des interfaces modernes, performantes et accessibles,
-            avec une attention particulière portée à l’expérience utilisateur et
-            à la qualité du code. Rigoureuse, impliquée et orienté résultat, je
-            mets un point d’honneur à développer des projets fiables, responsive
-            et optimisés, en respectant les bonnes pratiques du développement
-            web.
+            En tant que développeuse web, j’aime concevoir des sites modernes,
+            accessibles et agréables à utiliser. À travers ma formation et mes
+            projets, j’ai développé des compétences en HTML, CSS, JavaScript,
+            React et Node.js, avec une attention particulière portée au
+            responsive design, à la performance et à la qualité du code.
           </p>
 
           <p>
-            Curieuse et constamment en veille sur les nouvelles technologies,
-            j’aime transformer des idées en solutions concrètes, claires et
-            efficaces. Maîtrisant les outils de developpement web, je suis
-            capable de créer des sites élégants, dynamiques et adaptés à tous
-            les supports. Chaque projet est pour moi l’occasion d’apporter une
-            réelle valeur ajoutée grâce à une approche méthodique, un sens du
-            détail affirmé et une forte capacité d’adaptation.
+            Curieuse et motivée, j’aime apprendre de nouvelles technologies et
+            transformer des idées en solutions concrètes et fonctionnelles.
+            Chaque projet est pour moi l’occasion de progresser, relever des
+            défis techniques et créer des interfaces claires, dynamiques et
+            adaptées à tous les supports.
           </p>
 
           <p>
-            Sérieuse, autonome et à l’écoute, je privilégie une relation de
-            confiance dans chaque collaboration afin de garantir un travail
-            professionnel, durable et soigné. Mon objectif est de concevoir des
-            expériences web modernes qui allient esthétique, performance et
-            accessibilité, tout en répondant précisément aux besoins des
-            utilisateurs et des clients.
+            Sérieuse, autonome et impliquée, je cherche avant tout à réaliser
+            des projets fiables et soignés, en gardant toujours l’expérience
+            utilisateur au centre de ma réflexion.
           </p>
         </div>
       </section>
@@ -95,49 +97,49 @@
 
         <div class="skills-grid">
           <article class="skill">
-            <img src="assets/img/html5.svg" alt="Logo HTML" />
+            <img src="assets/icon/html5.svg" alt="Logo HTML" />
             <strong>HTML</strong>
             <span>Structure</span>
           </article>
 
           <article class="skill">
-            <img src="assets/img/css3.svg" alt="Logo CSS" />
+            <img src="assets/icon/css3.svg" alt="Logo CSS" />
             <strong>CSS</strong>
             <span>Design</span>
           </article>
 
           <article class="skill">
-            <img src="assets/img/javascript.svg" alt="Logo JavaScript" />
+            <img src="assets/icon/javascript.svg" alt="Logo JavaScript" />
             <strong>JS</strong>
             <span>Interactions</span>
           </article>
 
           <article class="skill">
-            <img src="assets/img/react.svg" alt="Logo React" />
+            <img src="assets/icon/react.svg" alt="Logo React" />
             <strong>React</strong>
             <span>Interface</span>
           </article>
 
           <article class="skill">
-            <img src="assets/img/nodejs.svg" alt="Logo Node JS" />
+            <img src="assets/icon/nodejs.svg" alt="Logo Node JS" />
             <strong>Node JS</strong>
             <span>Back-end</span>
           </article>
 
           <article class="skill">
-            <img src="assets/img/mongodb.svg" alt="Logo MongoDB" />
+            <img src="assets/icon/mongodb.svg" alt="Logo MongoDB" />
             <strong>MongoDB</strong>
             <span>Base de données</span>
           </article>
 
           <article class="skill">
-            <img src="assets/img/github.svg" alt="Logo GitHub" />
+            <img src="assets/icon/github.svg" alt="Logo GitHub" />
             <strong>GitHub</strong>
             <span>Déploiement</span>
           </article>
 
           <article class="skill">
-            <img src="assets/img/seo.webp" alt="Logo SEO" />
+            <img src="assets/icon/seo.webp" alt="Logo SEO" />
             <strong>SEO</strong>
             <span>Optimisation</span>
           </article>
@@ -145,68 +147,7 @@
       </section>
       <section id="realisations" class="projects section-light">
         <h2>Mes réalisations</h2>
-        <div class="projects-grid">
-          <button type="button" class="project-card" data-project="0">
-            <img
-              loading="lazy"
-              decoding="async"
-              src="assets/img/booki-card.webp"
-              alt="Aperçu projet Booki"
-              width="900"
-              height="775"
-            /><span>Booki</span>
-          </button>
-          <button type="button" class="project-card" data-project="1">
-            <img
-              loading="lazy"
-              decoding="async"
-              src="assets/img/sophie_BLUEL-card.webp"
-              alt="Aperçu projet Sophie Bluel"
-              width="900"
-              height="1122"
-            /><span>Sophie Bluel</span>
-          </button>
-          <button type="button" class="project-card" data-project="2">
-            <img
-              loading="lazy"
-              decoding="async"
-              src="assets/img/nina_carducci-card.webp"
-              alt="Aperçu projet Nina Carducci"
-              width="900"
-              height="930"
-            /><span>Nina Carducci</span>
-          </button>
-          <button type="button" class="project-card" data-project="3">
-            <img
-              loading="lazy"
-              decoding="async"
-              src="assets/img/kasa-card.webp"
-              alt="Aperçu projet Kasa"
-              width="900"
-              height="717"
-            /><span>Kasa</span>
-          </button>
-          <button type="button" class="project-card" data-project="4">
-            <img
-              loading="lazy"
-              decoding="async"
-              src="assets/img/mon_vieux_grimoire-card.webp"
-              alt="Aperçu projet Mon vieux grimoire"
-              width="900"
-              height="787"
-            /><span>Mon vieux grimoire</span>
-          </button>
-          <button type="button" class="project-card" data-project="5">
-            <img
-              loading="lazy"
-              decoding="async"
-              src="assets/img/menu_maker-card.webp"
-              alt="Aperçu projet Menu Maker"
-              width="900"
-              height="898"
-            /><span>Menu Maker</span>
-          </button>
-        </div>
+        <div class="projects-grid" id="projects-grid"></div>
       </section>
     </main>
     <footer id="contact" class="contact section-dark">
@@ -233,8 +174,10 @@
 
     <dialog class="modal" id="project-modal">
       <div class="modal-header">
-        <h3 class="modal-title"></h3>
-        <button class="modal-close" aria-label="Fermer">×</button>
+        <h3 class="modal-title">Titre du projet</h3>
+        <button class="modal-close" aria-label="Fermer">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
       </div>
       <div class="modal-content">
         <img

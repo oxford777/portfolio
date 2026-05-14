@@ -72,12 +72,19 @@ a:focus-visible {
 .brand {
   text-decoration: none;
   color: var(--color-accent);
-  font-weight: 700;
-  font-size: 1.9rem;
+  font-size: 1.4rem;
   line-height: 1.1;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.brand h1 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
 }
 
 .nav {
@@ -114,10 +121,14 @@ a:focus-visible {
   overflow: hidden;
 }
 
+.hero picture,
 .hero img {
   width: 100%;
-  height: auto;
   display: block;
+}
+
+.hero img {
+  height: auto;
 }
 
 .about {
@@ -128,7 +139,7 @@ a:focus-visible {
 .projects h2,
 .skills h2,
 .contact h2 {
-  font-size: 2.8rem;
+  font-size: 2.3rem;
   margin: 0 0 2rem;
   text-align: center;
 }
@@ -146,7 +157,7 @@ a:focus-visible {
 .about-text {
   max-width: 1200px;
   line-height: 1.2;
-  font-size: 1.45rem;
+  font-size: 1.2rem;
   text-align: justify;
 }
 
@@ -251,25 +262,13 @@ a:focus-visible {
 
 .project-card span {
   display: block;
-  padding: 18px;
-  font-weight: 800;
+  padding: 8px;
+  font-weight: 700;
   font-size: 1.25rem;
 }
 
-.cv-btn {
-  display: inline-block;
-  background: var(--color-white);
-  color: var(--color-text);
-  padding: 12px 22px;
-  border-radius: 22px;
-  text-decoration: none;
-  font-weight: 800;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
-  border: 1px solid #dddddd;
-}
-
 .contact {
-  padding: 60px 8% 10px;
+  padding: 20px 8% 10px;
   text-align: center;
   background: linear-gradient(135deg, #3a3d42, #4b4f56);
 }
@@ -277,19 +276,19 @@ a:focus-visible {
 .contact-grid {
   display: flex;
   justify-content: center;
-  gap: 170px;
-  padding-bottom: 20px;
+  gap: 100px;
+  padding-bottom: 15px;
   flex-wrap: wrap;
 }
 
 .contact-card {
-  width: 320px;
-  height: 150px;
+  width: 240px;
+  min-height: 110px;
 
-  padding: 10px 20px;
+  padding: 12px 18px;
 
   border: 2px dashed rgba(255, 255, 255, 0.7);
-  border-radius: 18px;
+  border-radius: 16px;
 
   text-align: center;
   text-decoration: none;
@@ -308,19 +307,21 @@ a:focus-visible {
 }
 
 .contact-card:hover {
-  transform: translateY(-6px);
+  transform: translateY(-4px);
 }
 
 .contact-card i {
-  font-size: 3rem;
+  font-size: 2rem;
   color: var(--color-accent);
+  margin-bottom: 8px;
 }
 
 .contact-card h3 {
-  margin: 18px 0 10px;
-  font-size: 1.5rem;
+  margin: 6px 0;
+  font-size: 1.2rem;
 }
 
 .contact-card p {
-  font-size: 1rem;
+  font-size: 0.95rem;
+  line-height: 1.3;
 }
