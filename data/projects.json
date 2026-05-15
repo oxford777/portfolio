@@ -15,6 +15,10 @@
       "Accessibilité web",
       "Interactions et animations CSS"
     ],
+    "amelioration": [
+      "Ajouter une version dynamique avec JavaScript et récupération de données via API",
+      "Optimiser le poids des images pour améliorer les performances du site et le temps de chargement."
+    ],
     "github": "https://github.com/oxford777/page_accueil_agence_voyage_BOOKI",
     "site": "https://oxford777.github.io/page_accueil_agence_voyage_BOOKI/"
   },
@@ -38,6 +42,10 @@
       "Séparation de la logique JavaScript et du style CSS",
       "Utilisation de Git et GitHub pour le versionning du projet"
     ],
+    "amelioration": [
+      "Optimiser le poids des images afin d’améliorer les performances de chargement du site",
+      "Améliorer le responsive design du site afin d’adapter correctement l’affichage du portfolio, de la galerie et de la modale aux écrans mobiles et tablettes."
+    ],
     "github": "https://github.com/oxford777/Projet-Sophie-BLUEL"
   },
   {
@@ -58,6 +66,10 @@
       "Responsive design",
       "Bonnes pratiques web"
     ],
+    "amelioration": [
+      "Ajouter un blog pour partager des conseils photo et améliorer le SEO",
+      "Ajouter des avis clients pour renforcer la confiance"
+    ],
     "github": "https://github.com/oxford777/D-buggez-et-optimisez-un-site-de-photographe",
     "site": "https://oxford777.github.io/D-buggez-et-optimisez-un-site-de-photographe/"
   },
@@ -76,6 +88,13 @@
       "SCSS / architecture CSS",
       "Manipulation de données JSON",
       "Accessibilité web"
+    ],
+    "amelioration": [
+      "Ajouter un système de recherche et de filtres pour les logements",
+      "Ajouter un mode sombre pour améliorer le confort visuel.",
+      "Ajouter un système de favoris pour sauvegarder des logements.",
+      "Ajouter une vraie base de données pour gérer les logements dynamiquement.",
+      "Créer un espace utilisateur avec connexion et inscription."
     ],
     "github": "https://github.com/oxford777/Kaza",
     "site": "https://kaza-red.vercel.app/"
@@ -101,6 +120,10 @@
       "Organisation d’une architecture MVC",
       "Utilisation de variables d’environnement (.env)"
     ],
+    "amelioration": [
+      "Ajouter des fonctionnalités sociales (commentaires, favoris)",
+      "Ajouter un système de recherche et de filtres avancés"
+    ],
     "github": "https://github.com/oxford777/Mon_vieux-grimoire",
     "site": ""
   },
@@ -121,6 +144,14 @@
       "Présentation d’une solution technique à un client",
       "Identification des contraintes techniques et de sécurité",
       "Planification des phases de développement"
+    ],
+    "amelioration": [
+      "Développement d’une version mobile responsive",
+      "Intégration complète avec l’API Deliveroo",
+      "Ajout du partage automatique sur Instagram",
+      "Gestion de plusieurs menus pour un même restaurant",
+      "Mise en place d’un mode sombre",
+      "Export du menu dans plusieurs formats (PDF, image, QR code)"
     ],
     "github": "#",
     "site": ""

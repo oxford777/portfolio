@@ -17,6 +17,7 @@ const image = modal.querySelector(".modal-img");
 const projectText = modal.querySelector(".modal-project");
 const description = modal.querySelector(".modal-description");
 const list = modal.querySelector(".modal-skills");
+const improvementsList = modal.querySelector(".modal-improvements");
 const githubLink = modal.querySelector(".modal-github");
 const siteLink = modal.querySelector(".modal-site");
 
@@ -63,6 +64,16 @@ fetch("data/projects.json")
           li.textContent = skill;
           list.appendChild(li);
         });
+
+        improvementsList.textContent = "";
+
+        if (project.amelioration) {
+          project.amelioration.forEach((item) => {
+            const li = document.createElement("li");
+            li.textContent = item;
+            improvementsList.appendChild(li);
+          });
+        }
 
         githubLink.href = project.github;
 

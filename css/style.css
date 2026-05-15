@@ -170,6 +170,10 @@ a:focus-visible {
   margin-bottom: 40px;
 }
 
+.about h3 {
+  color: var(--color-dark);
+}
+
 .about-text {
   max-width: 1200px;
   line-height: 1.2;
